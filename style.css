@@ -1,5 +1,6 @@
 body{
     text-align:center;
+    background-color:lightblue
 }
 .menu{
     list-style:none;
@@ -27,10 +28,27 @@ padding-right:0px;}
     color:aquamarine
 }
 #cricketimage{
-    width:175px;
+    width:250px;
     margin-bottom: 50px;
-    border-radius: 50%;
+    border-radius:200px;
+    padding-top:25px;}
+
+#home{
+    background-color:
+#12c2e9
+
+
+}
+#home:hover{
+ background: linear-gradient(#e66465, #9198e5);
+    
 }
 #home{
-    background-color:cornflowerblue;
+background: rgb(29,20,192);
+background: linear-gradient(90deg, rgba(29,20,192,1) 0%, rgba(4,205,203,1) 51%, rgba(0,212,255,1) 100%);}
+#about{
+    background-color:#ff9900;
+}
+#about:hover{
+    background-color:darkcyan;
 }
