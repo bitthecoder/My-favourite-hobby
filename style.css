@@ -16,12 +16,14 @@ padding-right:0px;}
 .links{
     float:left;
     color:darkcyan;
+    background-color: aquamarine;
+background-size: cover;
     padding-top:5px;
     padding-bottom:5px;
     padding-left:10px;
     padding-right:10px;
     font-family:serif;
-    font-size:20px;
+    font-size:10px;
 }
 
 .links:hover{
@@ -51,4 +53,19 @@ background: linear-gradient(90deg, rgba(29,20,192,1) 0%, rgba(4,205,203,1) 51%, 
 }
 #about:hover{
     background-color:darkcyan;
+}
+#favourite:hover{
+  background: rgb(44,211,170);
+background: linear-gradient(90deg, rgba(44,211,170,1) 0%, rgba(18,45,174,1) 60%, rgba(0,255,46,0.5466460754223564) 100%);
+}
+#favourite{
+   
+background: linear-gradient(90deg, rgba(53,44,211,1) 0%, rgba(174,18,84,1) 60%, rgba(255,0,0,0.23852282612263653) 100%);
+}
+html{
+  scroll-behavior:smooth;
+}
+#mail{
+  height:25px;
+  width:25px;
 }
